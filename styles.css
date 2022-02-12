@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --menuColor: #092327;
+    --navBarTextColor: #ffffff; 
+    --navBarItemsHoverColor: #ec8c1d;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins", Helvetica;
+
+}
+
+.menu{
+    list-style: none;
+    background: var(--menuColor);
+    width: 100%;
+    height: 65px;
+}
+
+.menu button{
+    background: none;
+    color: var(--navBarTextColor);
+    
+    border: none;
+    padding: 20px;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: var(--navBarTextColor);
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+
+}
+
+.menu li:hover{
+    background: var(--navBarItemsHoverColor);
+    transition: all 0.35s ease 0s;
+}
+
+.hero{
+    margin-top: 5rem;
+    margin-left: 15rem;
+    margin-right: 5rem;
+    display: inline-block;
+    width: 706px;
+    height: 496px;
+    color: var(--menuColor);
+    border: solid;
+}
+
+.introduction{
+    display: inline-block;
+    width: 40%;
+    height: 400px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.container1{
+    display: block;
+}
+
+.container2{
+    display: block;
+    margin-top: 50rem;
+    width: 100%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+.hero img{
+    position: absolute;
+    width: 700px;
+}
+
+.hero button{
+    display: inline-flexbox;
+}
+
+.hero #nextButton{
+   margin-top: 31rem;
+   position:fixed;
+   margin-left: 41.5rem;
+
+}
+
+.hero #previousButton{
+    margin-top: 31rem;
+    position:fixed;
+ }
+
+@keyframes imgTransition1{
+    0%{opacity: 100%;}
+    50%{opacity: 0;}
+    100%{opacity: 100%}
+}
+
+@keyframes imgTransition2{
+    0%{opacity: 0%}
+    50%{opacity:100%}
+    100%{opacity: 0%;}
+}
+
+.introduction p{
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+#paragraph2, #paragraph3{
+    font-size: medium;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+#date1, #date2{
+    font-size: small;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+#education{
+    font-size: medium;
+    margin-top: 0.5rem;
+}
+
+#educationTag{
+    margin-top: 0.5rem;
+}
+
+#contact{
+    display: block;
+    margin: auto;
+    width: 940px;
+    height: 900px;
+    font-family: "Poppins";
+}
+
+#contact .container3 #contactTitle{
+    text-align: center;
+}
+
+.containerAboutMe, .photo{
+ display: inline-block;
+ margin-top: 3rem;
+ margin-left: 15rem;
+}
+
+#photoimg{
+    width: 60%;
+    border: solid;
+    border-color: var(--menuColor);
+}
+
+.aboutMe{
+    display: block;
+}
+
+.containerAboutMe{
+    margin-top: 3rem;
+    margin:auto
+}
+
+#topEatin{
+    height: 400px;
+    border: var(--menuColor) solid;
+    animation: imgTransition;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    margin-left: 10rem;
+}
+
+.photoExperience #topEatin{
+    margin-top: 3rem;
+}
+
+.photoExperience, .photoPura, .people4, .photoapp3{
+    display: inline-block;
+}
+
+#pura{
+    height: 400px;
+    border: var(--menuColor) solid;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+#div12{
+    display: block;
+}
+
+#zoho{
+    height: 400px;
+    border: var(--menuColor) solid;
+    margin-left: 10rem;
+}
+
+.skills h1{
+    text-align: center;
+}

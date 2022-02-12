@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"><link/>
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+
+    <div class="navBar">
+        <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><button id="aboutmeButton" onclick="gotoAboutMe()">About Me</button></li>
+            <li><button id="experienceButton" onclick="gotoExperience()">Experience</button></li>
+            <li><button id="contactButton" onclick="gotoContact()">Contact</button></li>
+            <li><button id="skillsButton" onclick="gotoSkills()">Skills</button></li>
+        </ul>
+
+    <!-- Homepage -->
+    
+    <div class ="home1" id="home1" style="visibility: visible;">
+
+
+        <!-- Container1, contiene introduccion y parte de educación -->
+
+        <div class="container1" id="container1">
+            <section class="introduction" id="introduction">
+                <h1>Perfil</h1>
+                <p id="paragraph1">Ingeniero de producción egresado de la UNIMET; actualmente me encuentro
+                    llevando a cabo mis estudios de ingeniería de sistemas en la misma casa de estudios.<br><br>
+                    Persona activa, motivada y altamente dinámica con una amplia experiencia en las áreas 
+                    de distribución y logística nacional e internacional.<br>
+                </p>
+                <h1 id="educationTag">Educación</h1>
+                <ul>
+                    <li><h2 id="education">Universidad Metropolitana: Ingeniería de Producción</h2></li>
+                    <p id="date1">Marzo 2014 - Enero 2021</p>
+                    <p id="paragraph2">Organización, planificación, mejoramiento continuo y control de los procesos de producción 
+                        de bienes y servicios para crear una posición competitiva en el mercado. Conocimientos en gestión
+                        de optimización de recursos materiales, humanos y tecnológicos con que cuentan los distintos tipos
+                        de organizaciones en el área de operaciones.<br><br>
+                        Conocimientos en las ciencias básicas de la ciencia e ingeniería.<br><br>
+                        Conociminetos en simulación de procesos, procesos de fabricación, diseño asistido por computadora,
+                        optimización, ingeniería económica y control de procesos industriales.
+                </p>
+                </ul> 
+            </section>
+
+            <!-- Div que contiene el hero -->
+
+            <div class="hero" id="hero">
+                <img id="top" src="./images/campus.jpg"/>
+                
+                <button onclick = "nextImage()" id="nextButton">Next</button>
+                <button onclick="previousImage()" id="previousButton">Previous</button>
+            </div>
+        </div>
+
+        <!-- Container2 que contiene el resto de educación -->
+
+        <div class="container2" id="container2">
+            <ul>
+                <li><h2 id="education2">Universidad Metropolitana: Ingeniería de Sistemas</h2></li>
+                <p id="date2">Marzo 2021 - Actual</p>
+                <p id="paragraph3">Resolución de problemas interdisciplinarios de diversos tipos y complejidad relacionados al manejo de información mediante 
+                    un enfoque de sistemas, sistemas de información e investigación de operaciones.<br><br>   
+                    Análisis de diseño, estructuración e implantación de sistemas.<br><br>
+                    Resolución de problemas mediante técnicas de investigación de operaciones.<br><br>
+
+            </p>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- AboutMe page -->
+
+    <div class="aboutMe" id="aboutMe" style="visibility: hidden;">
+        <div class="container1" id="containerAboutMe">
+            <section class="introduction" id="introduction">
+                <h1>Miguel Enrique Colina Aguilera</h1>
+                <p> Me motiva cuando me enfrento a un reto, problema u objetivo específico y tengo que cumplirlo en un tiempo determinado.<br><br>
+                    Me motiva inmensamente aprender cosas nuevas y usar las cosas aprendidas para hacer algo tangible. Aprender nuevas cosas es algo “que me lo pide el cuerpo". <br><br>
+                    Disfruto de la música, los deportes extremos, la actividad física y todo aquello relacionado con la física y astronomía.</p>
+                <ul>
+                    <li><h2 id="education">Objetivos</h2></li>
+                    <ul>
+                        <li>Corto plazo</li>
+                        <h4>Culminar el trimestre de manera exitosa.</h4>
+                        <h4>Arrancar con proyecto de emprendimiento.</h4>
+                        <li>Mediano plazo</li>
+                        <h4>Terminar mis estudios de ingeniería de sistemas.</h4>
+                        <h4>Comenzar diplomado de gerencia de producción en la UNIMET.</h4>
+                    </ul>
+                </ul> 
+            </section>
+
+            <!-- Div que contiene la foto -->
+
+            <div class="photo">
+                <img id="photoimg" src="./images/IMG_2591.jpg"/>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Experience page-->
+
+    <div class="experience" id="experience" style="visibility: hidden;">
+                <div class="container1" id="containerAboutMe">
+                    
+                    <section class="introduction" id="introduction">
+                        <ul>
+                            <li><h1>Project Pura</h1></li>
+                        </ul>
+                        <p> Plataforma dedicada a organizaciones y personas involucradas en la lucha en contra el cambio climático <br><br>
+                            Esta plataforma permite a sus usuarios conectar con otros usuarios a nivel mundial y apoyarlos en la búsqueda
+                            de un mundo ecológico, verde y sustentable. Esta aplicación no solo es para las personas, sino que también 
+                            las distintas organizaciones a nivel mundial pueden formar parte de esta comunidad. Contamos con aociados como:
+                            UCLL HOGESCHOOL, SolarRoof y Laupat Industries.
+                            Tecnologías utilizadas: HTML, CSS, JavaScript, React y Firebase.<br><br>
+                            Fecha de ejecución: Enero 2019.<br><br>
+                            Fecha de culminación: Mayo 2019.<br><br>
+                            <a href="https://projectpura.com/" target="_blank">Referencia</a></p>
+                            
+                           
+
+                    </section>
+
+                    <div class="photoPura">
+                        <img id="pura" src="./images/browse.png"/>
+                    </div>
+                </div>
+
+
+                <section class="introduction" id="introduction">
+                    <ul>
+                        <li><h1>Zoho App</h1></li>
+                    </ul>
+                    <p> Herramienta para la gestión de proyectos. <br><br>
+                        Esta herramienta ofrece a los quipos de trabajo una manera fácil, rápida y cómoda
+                        de organizar la ejecución de sus proyectos. La app permite a los usuarios visualizar la planificación de
+                        sus proyectos en una interfaz gráfica de usuario amigable, intuitiva y fácil de utilizar. La applicación 
+                        permite la planificación de manera colaborativa con todos los mienbros del equipo de trabajo en tiempo real.<br><br>
+                        Tecnologías utilizadas: HTML, CSS, JavaScript, React y Firebase.<br><br>
+                        Fecha de ejecución: Junio 2021.<br><br>
+                        Fecha de culminación: Diciembre 2021.<br><br>
+                        <a href="https://www.zoho.com/es-xl/projects/mobile-app.html" target="_blank">Referencia</a></p>
+                </section>
+
+                <!-- Div que contiene la foto -->
+
+                <div class="people4">
+                    <img id="zoho" src="./images/people-4.png"/>
+                </div>
+
+                <section class="introduction" id="introduction">
+                    <ul>
+                        <li><h1>Food Delivery App</h1></li>
+                    </ul>
+                    <p> App de delivery de comida para el mercado venezolano. <br><br>Esta app ofrece los mismos estándares internacionales
+                        que han tenido tanto éxito alrededor del mundo; brinda a sus usuarios la facilidad de ordenar através de la plataforma, 
+                        tener ofertas especiales, hasta servicio al cliente. La app cuenta con una diversidad de proveedores que que ofrece 
+                        a los usuarios una amplia gama de restaurantes de los cuales pueden realizar pedidos. <br><br>
+                        Tecnologías utilizadas: HTML, CSS, JavaScript, React y Firebase.<br><br>
+                        Fecha de ejecución: Junio 2021.<br><br>
+                        Fecha de culminación: Diciembre 2021.<br><br>
+                        <a href="https://www.rashidmukhtar.com/project/eatin" target="_blank">Referencia</a></p>
+                </section>
+        
+                <!-- Div que contiene la foto -->
+        
+                <div class="photoapp3">
+                    <img id="topEatin" src="./images/eatin-2.jpg"/>
+                </div>
+        </div>
+
+        
+
+    </div>
+
+
+    <!-- Contact page -->
+
+    <div class="contact" id="contact" style="visibility: hidden;">
+        <section class="container3">
+            <h1 id="contactTitle">Contacto</h1>
+        </section>
+
+        <form id="contactForm">
+            <div>
+                <label id="name" name="name">Nombre</label>
+                <input>
+            </div>
+            
+            <div>
+                <label id="email" name="email">Email</label>
+                <input>
+             </div>
+
+             <div>
+                <label id="message" name="message">Mensaje</label>
+                <input>
+            </div>
+            <div>
+                <label id="company" name="company">Empresa</label>
+                <input>
+            </div>
+        </form>
+
+        <div>
+            <button id= "sendButton" onclick= "sendInfo()">Enviar</button>
+        </div>
+
+        <a href="https://wa.me/4143694240?text=Mensaje%20de%20prueba%20" target="_blank"><h1>WhatsApp</h1></a>
+        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        
+    </div>
+
+    <div class="skills" id="skills" style="visibility: hidden;">
+            <h1>Página en desarrollo</h1>
+    </div>
+
+
+</body>
+</html>
