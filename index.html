@@ -196,31 +196,34 @@
 
         <form id="contactForm">
             <div>
-                <label id="name" name="name">Nombre</label>
-                <input>
+                <label id="name" name="name">Nombre:</label>
+                <input type="text" id="nameInput">
             </div>
             
             <div>
-                <label id="email" name="email">Email</label>
-                <input>
+                <label id="email" name="email">Email:   </label>
+                <input type="text" id="emailInput">
              </div>
 
-             <div>
-                <label id="message" name="message">Mensaje</label>
-                <input>
+            <div>
+                <label id="company" name="company">Empresa:</label>
+                <input type="text" id="companyInput">
             </div>
             <div>
-                <label id="company" name="company">Empresa</label>
-                <input>
+                <label id="message" name="message">Mensaje:</label>
+                <textarea type="text" id="messageInput"></textarea>
             </div>
+
+            <button id= "sendButton" onclick= "sendInfo()">Enviar</button>
+
         </form>
 
         <div>
-            <button id= "sendButton" onclick= "sendInfo()">Enviar</button>
+            
         </div>
 
-        <a href="https://wa.me/4143694240?text=Mensaje%20de%20prueba%20" target="_blank"><h1>WhatsApp</h1></a>
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+        <a href="https://wa.me/4143694240?text=Mensaje%20de%20prueba%20" target="_blank" id="WhatsApp">whatsapp</a>
+        <a href="https://www.linkedin.com" target="_blank" id="linkedin">LinkedIn</a>
         
     </div>
 

@@ -81,10 +81,10 @@ function gotoSkills(){
 
 function sendInfo(){
 
-    const email = document.getElementById("email").value;
-    const name = document.getElementById("name").value;
-    const msg = document.getElementById("message").value;
-    const company = document.getElementById("company").value;
+    const email = document.getElementById("emailInput").value;
+    const name = document.getElementById("nameInput").value;
+    const msg = document.getElementById("messageInput").value;
+    const company = document.getElementById("companyInput").value;
 
     const message = 'Nueva solicitud de: ' + name +"\nEmpresa: "+company
                     +"\nEmail: " + email + "\nMensaje: " + msg;
